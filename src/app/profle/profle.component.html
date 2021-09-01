@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Angular Forms</h1>
+  <form>
+    <div class="form-group">
+      <label for="formGroupExampleInput">Your Name</label>
+      <input type="text" [formControl]="name" class="form-control" id="formGroupExampleInput" placeholder="Enter Yor Name">
+    </div>
+    <div class="form-group">
+      <label for="formGroupExampleInput2">Your Email</label>
+      <input type="text" [formControl]="email" class="form-control" id="formGroupExampleInput2" placeholder="Enter Your E Mail">
+    </div>
+    <button (click)="save()" type="button" class="btn btn-primary">Primary</button>
+  </form>
+</div>
+
